@@ -1,0 +1,20 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "echo",
+            "type": "shell",
+            "command": "gcc",
+            "args": ["-g","p0001.c"],
+        //  "args": ["-g","Codeforces/p0005.cpp"]
+        //  "args": ["-g","DCC/p0005.cpp"]
+        //  "args": ["-g","Hackerank/p0005.cpp"],
+            "group": {
+                "kind":"build",
+                "isDefault": true
+            }
+        }
+    ]
+}
