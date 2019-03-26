@@ -5,7 +5,7 @@
 int main(){
         int a = 1000,sum = 0;
         int b = 999,count3 = b/3,count5 = b/5, count15 = b/15;
-        sum = (3*count3*(count3+1)/2) + (5*count5*(count5+1)/2) - (15*count15*(count15+1)/2)
+        sum = (3*count3*(count3+1)/2) + (5*count5*(count5+1)/2) - (15*count15*(count15+1)/2);
         printf("%d",sum);
         return 0;
 }
